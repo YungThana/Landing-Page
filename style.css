@@ -75,7 +75,7 @@ body {
     height: 255px;
     margin-right: 35%;    
 }
-.s1Img {
+.s1image {
     width: 250px;
     height: 250px;
     border-radius: 8px;
@@ -89,7 +89,7 @@ body {
 .s2h1 {
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 20px;
     font-size: 20px;
     font-weight: 600;
 }
@@ -113,8 +113,14 @@ body {
     margin-top: 5px;
     width: 170px;
 }
-
-.s2boxing:hover {
+.s2boximg {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.s2boximg:hover {
     width: 250px;
     height: 250px;
     border: 3px solid rgb(0, 0, 0);
@@ -124,6 +130,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
+    object-position: center;
 }
 
 .section3 {
